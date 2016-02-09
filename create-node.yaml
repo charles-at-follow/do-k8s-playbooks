@@ -3,7 +3,7 @@
 - hosts: "localhost"
   vars:
     ansible_connection: "local"
-    ansible_python_interpreter: "python"
+    ansible_python_interpreter: "/usr/bin/python2"
   tasks:
 
   - command: "tools/generate-hostname.js -n k8s"
