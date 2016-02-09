@@ -19,7 +19,7 @@ var argv = require('optimist')
   .alias('k', 'ssh-keys')
 
   .alias('i', 'image')
-  .default('image', 'coreos-stable')
+  .default('image', 'coreos-alpha')
 
   .alias('s', 'size')
   .default('size', '512mb')
